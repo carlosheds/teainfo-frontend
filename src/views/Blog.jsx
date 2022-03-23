@@ -1,9 +1,11 @@
 import React from 'react';
 
+import BlogContent from '../components/BlogContent'
+
 export default function Blog() {
     return(
         <main>
-            <h1>Blog</h1>
+             <BlogContent />
         </main>
     )
 }

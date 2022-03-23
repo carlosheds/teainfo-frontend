@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function AboutGroup(props) {
     return (
-            <div className="card mb-3 mt-5">
+            <div className="card mb-2 mt-4">
                 <div className="row g-0">
                     <div className="col-md-4">
                         <img src={props.imgSrc} className="img-fluid rounded-start" alt="..." />

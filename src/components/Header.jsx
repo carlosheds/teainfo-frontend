@@ -11,8 +11,8 @@ export default function Header() {
                         <span className="navbar-toggler-icon"></span>
                     </button>
                     <div className="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-                        <div className="navbar-nav d-flex w-50 justify-content-evenly">
-                            <Link className="nav-link active" to="/">Home</Link>
+                        <div className="navbar-nav justify-content-evenly text-center">
+                            <Link className="nav-link" to="/">Home</Link>
                             <Link className="nav-link" to="/blog">Blog</Link>
                             <Link className="nav-link" to="/teste">Teste</Link>
                             <Link className="nav-link" to="/contato">Contato</Link>

@@ -1,9 +1,11 @@
 import React from 'react';
 
+import ContatoFrom from '../components/ContatoForm'
 export default function Contato() {
     return(
-        <main>
-            <h1>Contato</h1>
+        <main className="">
+            
+            <ContatoFrom />
         </main>
     )
 }

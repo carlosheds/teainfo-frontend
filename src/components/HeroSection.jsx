@@ -2,7 +2,7 @@ import react from 'react';
 
 export default function HeroSection(props) {
     return(
-        <section className="container d-flex justify-center align-items-center bg-secondary bg-gradient" style={{height:'80vh'}}>
+        <section className="container d-flex justify-center align-items-center my-5" style={{height:'80vh',backgroundImage: 'url(./bg-austism-home.png)',backgroundRepeat: 'no-repeat'}}>
                 <div className="card mx-auto h-40 w-60 ">
                     <div className="card-body text-center " >
                         <h2 className="card-title">{props.cardTitle}</h2>
